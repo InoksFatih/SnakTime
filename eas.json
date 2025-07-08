@@ -1,0 +1,30 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "node": {
+          "packageManager": "npm"
+        }
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "node": {
+          "packageManager": "npm"
+        }
+      },
+      "ios": {
+        "simulator": false,
+        "node": {
+          "packageManager": "npm"
+        }
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 3.0.0",
+    "appVersionSource": "local"
+  }
+}
